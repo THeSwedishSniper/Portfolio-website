@@ -1,28 +1,34 @@
+
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: aquamarine;
     max-width: 1000px; /* Adjust the max-width as needed */
     margin: 0 auto; /* Center the container horizontally */
   
 }
 
+.name .button a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
 #name {
     text-align: left;
     margin-right: auto;
-    
+    cursor: pointer;
     font-size: 35px;
 }
 
-ul {
+.name {
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
    margin-left:auto ;
-    background-color: antiquewhite;
 }
 
 li {
@@ -33,7 +39,6 @@ li {
 .aboutme-container {
     max-width: 1000px; /* Adjust the max-width as needed */
     margin: 0 auto; /* Center the container horizontally */
-    background-color: rgb(245, 245, 245);
     position: relative;
     padding: 20px; /* Add some padding */
 }
@@ -53,12 +58,59 @@ li {
 .text {
     max-width: 500px; /* Restrict the width of the text container */
 }
-.projects {
-    max-width: 1000px; /* Adjust the max-width as needed */
-    margin: 0 auto ; /* Center the container horizontally */
+.projects-container{
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.project-item {
+    list-style-type:circle;
+    margin: 10px 0;
+}
+
+
+.project-title {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+    transition: background-color 0.3s;
+    max-width: fit-content;
+}
+
+.project-details { 
+    display: none;
+    padding: 10px;
+   
+    margin-top: 5px;
+}
+
+.project-title:hover {
+    background-color: #f0f0f0;
+}
+
+
+.skills-container{
     display: flex;
     justify-content: space-between;
-    align-content: center;
-    background-color: brown;
-    padding: 20px;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto; 
+    padding: 0px 20px;
+}
+.skills img{
+    width: 100px;
+    height: auto;
+    margin: 15px 70px;
+}
+
+.contact-container{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 1000px;
+
 }
