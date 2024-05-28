@@ -1,0 +1,64 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: aquamarine;
+    max-width: 1000px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+  
+}
+
+#name {
+    text-align: left;
+    margin-right: auto;
+    
+    font-size: 35px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   margin-left:auto ;
+    background-color: antiquewhite;
+}
+
+li {
+    margin: 0 25px;
+    font-size: x-large;
+}
+
+.aboutme-container {
+    max-width: 1000px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    background-color: rgb(245, 245, 245);
+    position: relative;
+    padding: 20px; /* Add some padding */
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the start of the container */
+}
+
+.aboutme-container img {
+    width: 300px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+}
+
+.text {
+    max-width: 500px; /* Restrict the width of the text container */
+}
+.projects {
+    max-width: 1000px; /* Adjust the max-width as needed */
+    margin: 0 auto ; /* Center the container horizontally */
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: brown;
+    padding: 20px;
+}
